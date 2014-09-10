@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta charset="utf-8" />
+        <title>iPhone Text Messaging</title>
+        
+        <!--link href="favicon.png" rel="icon" /-->
+        
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+        
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/texter.custom.js"></script>
+    </head>
+    
+    <body>
+        <div id="center">
+            <div id="msg">
+                
+                <div id="msgs-wrapper">
+                    <div id="msgs" class="ui-sortable"></div>
+                </div>
+                
+                <div id="msgs-bottom">
+                    <div id="text-photo-upload">&nbsp;</div>
+                    
+                    <input type="text" name="msg" placeholder="Text Message" id="msg-content" />
+                    
+                    <div id="text-send-result">Send</div>
+                    
+                    <div class="checkbox">
+                    	<label id="sender_lab">
+                    		<input type="radio" name="mode" value="sender" /> <span id="sender_rad">Sender</span>
+                    	</label>
+                        <label id="rec_lab">
+                    		<input type="radio" name="mode" value="reciever" checked="" /> <span id="rec_rad">Reciever</span>
+                    	</label>
+                        
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </body>
+</html>
